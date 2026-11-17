@@ -1,0 +1,324 @@
+{
+  "updated": "2026-11-17",
+  "note": "壳 + 源 清单：播放器/阅读器壳子本体，以及它们各自能吃的源。raw.githubusercontent 国内直连超时，优先 jsDelivr。",
+  "shells": [
+    {
+      "id": "misatv",
+      "name": "MisaTV",
+      "kind": "影视(直播/点播)",
+      "repo": "https://github.com/yagami-hue/MisaTV",
+      "local": "D:\\\\AI\\\\WorkBuddy\\\\TVBox-PC\\\\MisaTV.exe",
+      "stars": 128,
+      "platform": "Windows",
+      "sourceFormat": "TVBox 接口 JSON (CMS/多仓) + Kazumi 规则 + jar/js/py 蜘蛛",
+      "sources": {
+        "tvbox_cms": {
+          "file": "tvbox-cms-direct.json",
+          "url": "https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/tvbox-cms-direct.json",
+          "count": 44,
+          "desc": "真直连实测通过的采集站(CMS JSON)"
+        },
+        "tvbox_multi": {
+          "file": "tvbox-stores-direct.json",
+          "url": "https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/tvbox-stores-direct.json",
+          "count": 42,
+          "desc": "真直连可拉的多仓地址"
+        },
+        "kazumi_rules": {
+          "repo": "https://github.com/Predidit/KazumiRules",
+          "index": "https://cdn.jsdelivr.net/gh/Predidit/KazumiRules@main/index.json",
+          "count": 18,
+          "names": [
+            "7sefun",
+            "aafun",
+            "AGE",
+            "akianime",
+            "baimao",
+            "dalvdm",
+            "DM84",
+            "ezdmw",
+            "giriGiriLove",
+            "LMM",
+            "mgnacg",
+            "moonci",
+            "mutefun",
+            "MXdm",
+            "sorani",
+            "TvTFun",
+            "xfdmneo",
+            "xfdmnext"
+          ],
+          "desc": "番剧/动漫规则源，MisaTV 设置→Kazumi 规则可导入"
+        }
+      }
+    },
+    {
+      "id": "lx-music",
+      "name": "洛雪音乐 (lx-music-desktop)",
+      "kind": "音乐",
+      "repo": "https://github.com/lyswhut/lx-music-desktop",
+      "local": "D:\\\\Tools\\\\lx-music-desktop-v2.11.0-win_x64-green\\\\lx-music-desktop.exe",
+      "platform": "Windows/Android/Mac",
+      "sourceFormat": "自定义音源脚本 JS (user_api)",
+      "sources": {
+        "repo": "https://github.com/pdone/lx-music-source",
+        "base": "https://raw.githubusercontent.com/pdone/lx-music-source/main/",
+        "count": 20,
+        "items": [
+          {
+            "id": "changqing",
+            "name": "长青SVIP音源",
+            "version": "1.3.0",
+            "author": "SVIP",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/changqing/latest.js"
+          },
+          {
+            "id": "feichangdao",
+            "name": "非常刀",
+            "version": "v5",
+            "author": "群主要进去",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/feichangdao/latest.js"
+          },
+          {
+            "id": "fish",
+            "name": "fish_music",
+            "version": "1.9.0",
+            "author": "大鱼吃小鱼",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/fish/latest.js"
+          },
+          {
+            "id": "flower",
+            "name": "野花🌷",
+            "version": "1",
+            "author": "?",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js"
+          },
+          {
+            "id": "grass",
+            "name": "野草🌾",
+            "version": "1",
+            "author": "?",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/grass/latest.js"
+          },
+          {
+            "id": "helloworld",
+            "name": "𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ",
+            "version": "260925",
+            "author": "hello world",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/helloworld/latest.js"
+          },
+          {
+            "id": "huanyin",
+            "name": "幻音音源",
+            "version": "v3",
+            "author": "竹佀",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/huanyin/latest.js"
+          },
+          {
+            "id": "huibq",
+            "name": "Huibq_lxmusic源",
+            "version": "v1.2.0",
+            "author": "Huibq",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js"
+          },
+          {
+            "id": "hyw",
+            "name": "HYWmusic_公益版",
+            "version": "v1.2.0",
+            "author": "Ryn",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/hyw/latest.js"
+          },
+          {
+            "id": "ikun",
+            "name": "ikun音源",
+            "version": "v22",
+            "author": "ikunshare",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/ikun/latest.js"
+          },
+          {
+            "id": "jiexiang",
+            "name": "杰翔聚合音源",
+            "version": "2.3.0",
+            "author": "https://qm.qq.com/cgi-bin/qm/qr?k=dEBGYbmu1lIRp7bAgHFim0W1uDsYl9v5&jump_from=webapi&authKey=fmTG96MhfqDQ5KARA/OvnuWAigCAloClvYhtSiEQd0jQneXmGons54BwlAh1+bUi",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/jiexiang/latest.js"
+          },
+          {
+            "id": "juhe",
+            "name": "聚合API接口 (CF)",
+            "version": "3",
+            "author": "lerd",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js"
+          },
+          {
+            "id": "lx",
+            "name": "独家音源",
+            "version": "7",
+            "author": "w",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/lx/latest.js"
+          },
+          {
+            "id": "qdy",
+            "name": "全豆要[聚合音源]",
+            "version": "9.3 93特供版 DeepSeek优化",
+            "author": "全豆要 and Gemini优化 Toskysun去混淆 TZB679兼容性处理",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js"
+          },
+          {
+            "id": "qingliang",
+            "name": "轻量音源（四平台多源并行）",
+            "version": "2.1.0",
+            "author": "本地定制",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/qingliang/latest.js"
+          },
+          {
+            "id": "sixyin",
+            "name": "六音音源",
+            "version": "v1.2.1",
+            "author": "六音",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js"
+          },
+          {
+            "id": "suyin",
+            "name": "溯音音源",
+            "version": "v1",
+            "author": "竹佀",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/suyin/latest.js"
+          },
+          {
+            "id": "xinghai",
+            "name": "星海音乐源",
+            "version": "v3.2.18",
+            "author": "万去了了 / 科学大魔王",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/xinghai/latest.js"
+          },
+          {
+            "id": "xinglan",
+            "name": "星澜聚合音源 (StellarWave)",
+            "version": "v4.0.2",
+            "author": "星澜团队",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/xinglan/latest.js"
+          },
+          {
+            "id": "yuningxi",
+            "name": "lx-玉宁熙-Pro",
+            "version": "v1.2.5",
+            "author": "ynx(2363768762)",
+            "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/yuningxi/latest.js"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sonovel",
+      "name": "SoNovel",
+      "kind": "小说(下载 epub/txt)",
+      "repo": "https://github.com/freeok/so-novel",
+      "local": "D:\\\\AI\\\\WorkBuddy\\\\SoNovel\\\\SoNovel\\\\sonovel.exe",
+      "version": "v1.12.0",
+      "platform": "Windows(自带 JRE)",
+      "sourceFormat": "书源规则 JSON (CSS selector + @js/@java 处理)",
+      "sources": {
+        "rules": "rules/main.json",
+        "count": 13,
+        "webui": "http://127.0.0.1:7765 (config.ini [web] enabled=1)",
+        "items": [
+          {
+            "name": "香书小说",
+            "url": "http://www.ibiqugu.net/",
+            "comment": ""
+          },
+          {
+            "name": "书海阁小说网",
+            "url": "https://www.shuhaige.net/",
+            "comment": "部分书源正文段落顺序错乱的书在这里可能正常，搜索爬取过快会丢包(Unexpected end of file from server)"
+          },
+          {
+            "name": "梦书中文",
+            "url": "http://www.mcxs.la/",
+            "comment": "搜索有限流(Connect timed out)"
+          },
+          {
+            "name": "鸟书网",
+            "url": "http://www.99wx.info/",
+            "comment": "搜索有限流 (Read timed out)，数量15w+"
+          },
+          {
+            "name": "笔尖中文",
+            "url": "http://www.xbiquwk.com/",
+            "comment": ""
+          },
+          {
+            "name": "悠久小说网",
+            "url": "http://www.ujxsw.org/",
+            "comment": "下载速度快"
+          },
+          {
+            "name": "阅读库",
+            "url": "http://www.yeudusk.com/",
+            "comment": ""
+          },
+          {
+            "name": "笔趣阁365",
+            "url": "https://www.biquge365.net/",
+            "comment": "搜索间隔15秒，若搜索结果为空则手动打开网页搜一次后再试"
+          },
+          {
+            "name": "第八中文网",
+            "url": "https://www.d8zw.com/",
+            "comment": "搜索、目录自动翻页（每页 100 章）；偶尔 502，建议线程数 ≤ 5"
+          },
+          {
+            "name": "笔趣阁52",
+            "url": "https://www.52bqg.com/",
+            "comment": "搜索可用；目录/章节链接为 JS onclick，规则用 @js 重写为绝对链接；正文 base64 编码（分页章节用 nextPageInJs 解析）"
+          },
+          {
+            "name": "少年小说网",
+            "url": "https://www.snxsw.com/",
+            "comment": "与笔趣阁52同款 CMS（搜索需带 submit 字段）；目录含隐藏 li、正文 base64、章节多页"
+          },
+          {
+            "name": "新笔趣阁小说网",
+            "url": "https://www.xbiquge.info/",
+            "comment": "与第八中文网同款 CMS 的镜像站；目录分页 .pagination、正文 article.font_max，章节分 3 页需翻页"
+          },
+          {
+            "name": "笔趣阁info",
+            "url": "https://www.bqg.info/",
+            "comment": "Bootstrap(46f)模板：搜索 GET /search/?searchkey=，结果不返回作者(详情页 og:novel:author 有)；详情页直接含完整目录 dl#newlist(无独立目录页)；正文 #booktxt、章内分页 #linkNext(_N.html，末页链接无 _N 即终止)；收录主流书本体(搜索结果中排最后)+大量同人/续写；全程无地域风控"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hghub",
+      "name": "HGhub",
+      "kind": "影视(桌面)",
+      "repo": "https://github.com/Minireel/HGhub",
+      "local": "D:\\\\AI\\\\WorkBuddy\\\\HGhub\\\\App\\\\HGhub.exe",
+      "version": "0.0.2",
+      "platform": "Windows/Android(APK)",
+      "sourceFormat": "HPP 1.0 单文件 JS 插件",
+      "sources": {
+        "repo": "https://github.com/CoderL98/hghub-plugins",
+        "count": 14,
+        "items": [
+          "anfuns",
+          "apple",
+          "avtoday",
+          "duanjutt",
+          "hdmoli",
+          "hkdoll",
+          "huangguo",
+          "jdys",
+          "jpyy",
+          "madou",
+          "pornhub",
+          "wwgz",
+          "xhamster",
+          "xingya"
+        ]
+      }
+    }
+  ]
+}
