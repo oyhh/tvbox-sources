@@ -70,3 +70,19 @@
   - 少年小说网 `https://www.snxsw.com/`
   - 新笔趣阁小说网 `https://www.xbiquge.info/`
   - 笔趣阁info `https://www.bqg.info/`
+
+## Mihon（+ Komikku）· 漫画
+- 仓库：https://github.com/mihonapp/mihon （25385★，v0.21.3）
+- 源格式：扩展 APK，来自 keiyoushi 扩展库
+- 中文扩展 79 个（`keiyoushi/extensions-source` 的 `src/zh`）
+- 加仓库（Mihon → 设置 → 浏览 → 扩展）：
+  - 官方：`https://github.com/keiyoushi/extensions/raw/repo/index.pb`
+  - jsDelivr（推荐）：`https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/index.pb`
+  - gh-proxy：`https://gh-proxy.com/https://github.com/keiyoushi/extensions/raw/repo/index.pb`
+- 备用壳：Komikku https://github.com/komikku-app/komikku （v1.14.1）
+
+## 异次元 · 漫画（备用）
+- 图源合集来源：https://github.com/lin686/legado-comic-sources
+- 实测可用 19/104 条：`comic/yiciyuan-sources-19.json`
+  - https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/comic/yiciyuan-sources-19.json
+- 说明：闭源应用，图源靠个人合集维护，站点改版即批量失效 → 主用 Mihon
