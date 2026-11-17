@@ -1,20 +1,26 @@
 # 壳 + 源 清单
 
-> 自动生成：2026-11-17。播放器/阅读器壳子本身 + 各自能吃的源。raw.githubusercontent 国内直连超时，优先 jsDelivr。
+> 更新：2026-11-18。播放器/阅读器壳子 + 各自能吃的源。raw 直连超时，用 jsDelivr。
 
-## MisaTV · 影视(直播/点播)
+## MisaTV · 影视(点播+直播)
 - 仓库：https://github.com/yagami-hue/MisaTV
 - 本机：`D:\AI\WorkBuddy\TVBox-PC\MisaTV.exe`
 - 源格式：TVBox 接口 JSON (CMS/多仓) + Kazumi 规则 + jar/js/py 蜘蛛
-- 采集站 44 个：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/tvbox-cms-direct.json
-- 多仓 42 个：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/tvbox-stores-direct.json
-- Kazumi 动漫规则 18 条：https://cdn.jsdelivr.net/gh/Predidit/KazumiRules@main/index.json
+- 采集站 44：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/tvbox-cms-direct.json
+- 多仓 42：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/tvbox-stores-direct.json
+- Kazumi 动漫规则 18：https://cdn.jsdelivr.net/gh/Predidit/KazumiRules@main/index.json
 
-## 洛雪音乐 (lx-music-desktop) · 音乐
+## HGhub · 影视(桌面+安卓)
+- 仓库：https://github.com/Minireel/HGhub
+- 本机：`D:\AI\WorkBuddy\HGhub\App\HGhub.exe`
+- 源格式：HPP 1.0 单文件 JS 插件
+- HPP 插件 14：anfuns、apple、avtoday、duanjutt、hdmoli、hkdoll、huangguo、jdys、jpyy、madou、pornhub、wwgz、xhamster、xingya
+
+## 洛雪音乐 · 音乐
 - 仓库：https://github.com/lyswhut/lx-music-desktop
 - 本机：`D:\Tools\lx-music-desktop-v2.11.0-win_x64-green\lx-music-desktop.exe`
-- 源格式：自定义音源脚本 JS (user_api)
-- 音源 20 个（来自 pdone/lx-music-source）：
+- 源格式：自定义音源脚本 (user_api JS)
+- 音源 20（pdone/lx-music-source）：
   - 长青SVIP音源 1.3.0 · https://raw.githubusercontent.com/pdone/lx-music-source/main/changqing/latest.js
   - 非常刀 v5 · https://raw.githubusercontent.com/pdone/lx-music-source/main/feichangdao/latest.js
   - fish_music 1.9.0 · https://raw.githubusercontent.com/pdone/lx-music-source/main/fish/latest.js
@@ -36,11 +42,21 @@
   - 星澜聚合音源 (StellarWave) v4.0.2 · https://raw.githubusercontent.com/pdone/lx-music-source/main/xinglan/latest.js
   - lx-玉宁熙-Pro v1.2.5 · https://raw.githubusercontent.com/pdone/lx-music-source/main/yuningxi/latest.js
 
-## SoNovel · 小说(下载 epub/txt)
+## 阅读3.0 · legado-with-MD3 · 小说(安卓书架,可追更)
+- 仓库：https://github.com/HapeLee/legado-with-MD3
+- 本机：`D:\AI\WorkBuddy\Novel\legado-3.26.28-core-universal.apk`
+- 源格式：legado 书源 JSON (CSS/JSONPath 规则)
+- 说明：原作者 gedoor/legado 仓库已被阅文投诉清空(README 只剩侵权公告、无 release)；此为活跃维护的 Material3 分支，仍在发版。
+- 书源 400 条精选（全量 3104）：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/legado-book-sources-top400.json
+  - 导入：阅读App → 我的 → 书源管理 → 右上角 ⋮ → 网络导入 → 粘上面 URL
+  - 全量/本地：D:\AI\WorkBuddy\Novel\legado-book-sources.json (全量 3104) / legado-book-sources-top400.json (精选)
+
+## SoNovel · 小说(整本下载 epub/txt)
 - 仓库：https://github.com/freeok/so-novel
 - 本机：`D:\AI\WorkBuddy\SoNovel\SoNovel\sonovel.exe`
-- 源格式：书源规则 JSON (CSS selector + @js/@java 处理)
-- 内置书源 13 个（rules/main.json），WebUI：http://127.0.0.1:7765
+- 源格式：书源规则 JSON
+- 说明：只能整本下载，无增量追更；WebUI http://127.0.0.1:7765
+- 内置书源 13（rules/main.json），WebUI http://127.0.0.1:7765
   - 香书小说 `http://www.ibiqugu.net/`
   - 书海阁小说网 `https://www.shuhaige.net/`
   - 梦书中文 `http://www.mcxs.la/`
@@ -54,9 +70,3 @@
   - 少年小说网 `https://www.snxsw.com/`
   - 新笔趣阁小说网 `https://www.xbiquge.info/`
   - 笔趣阁info `https://www.bqg.info/`
-
-## HGhub · 影视(桌面)
-- 仓库：https://github.com/Minireel/HGhub
-- 本机：`D:\AI\WorkBuddy\HGhub\App\HGhub.exe`
-- 源格式：HPP 1.0 单文件 JS 插件
-- HPP 插件 14 个（CoderL98/hghub-plugins）：anfuns、apple、avtoday、duanjutt、hdmoli、hkdoll、huangguo、jdys、jpyy、madou、pornhub、wwgz、xhamster、xingya
