@@ -94,3 +94,17 @@
 - 地址：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/live/live-cn.m3u
 - MisaTV：设置 → 直播源 → 导入 M3U（也可以直接填这个 URL）
 - 验证：主列表 + 首个分片都返回 200/206 才算活，代理全程关闭
+
+
+## 弹幕接口（MisaTV / LogVar 协议，直连实测）
+
+2026-11-18 真直连三轮重试，只有两个接口能真正取到弹幕 XML：
+
+| 名称 | 地址 | 实测（葬送的芙莉莲 ep1） |
+|---|---|---|
+| logvar.hhht.cc.cd | https://logvar.hhht.cc.cd | 4340 条 / 28 集 |
+| 乔蒂深 | https://logvardm.278612356.xyz/steven | 1563 条 / 28 集 |
+
+- 清单文件：`danmaku/endpoints.json`，说明见 `danmaku/README.md`
+- MisaTV 已把这两个设为启用（设置 → 播放与外观 → 字幕与弹幕 → 弹幕接口）
+- 其余内置 26 个（炊烟袅袅、Lily、麦当劳、W佬、稳健…）直连全挂，保持关闭
