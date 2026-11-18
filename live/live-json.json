@@ -3,8 +3,7 @@
   {
    "name": "直连直播82台(oyhh)",
    "url": "https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/live/live-cn.m3u",
-   "api": "https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/live/live-cn.m3u",
-   "type": 0
+   "type": "0"
   }
  ]
 }
