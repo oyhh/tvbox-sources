@@ -1,0 +1,131 @@
+{
+ "updated": "2026-11-18",
+ "protocol": "LogVar: {base}/api/v2/search/anime?keyword= → /api/v2/bangumi/{id} → /api/v2/comment/{ep}?format=xml",
+ "tested": "2026-11-18 真直连，关键词「葬送的芙莉莲」，三轮重试，取到弹幕 XML 才算活",
+ "app": "MisaTV 设置 → 弹幕 → 接口清单（也可直接粘贴下面的地址）",
+ "alive": [
+  {
+   "name": "乔蒂深",
+   "url": "https://logvardm.278612356.xyz/steven",
+   "danmaku": 1563,
+   "episodes": 28,
+   "sample": "葬送的芙莉莲 第1季(2023)【动漫】from tence",
+   "enabled": true
+  },
+  {
+   "name": "logvar.hhht.cc.cd",
+   "url": "https://logvar.hhht.cc.cd",
+   "danmaku": 4340,
+   "episodes": 28,
+   "sample": "葬送的芙莉莲 第1季[普通话版] 第01话 葬送的芙莉莲[普",
+   "enabled": true
+  }
+ ],
+ "dead": [
+  {
+   "name": "炊烟袅袅",
+   "url": "https://danmu.cynn.top/cynnsq"
+  },
+  {
+   "name": "LogVar",
+   "url": "https://dm.abai.ccwu.cc/abai"
+  },
+  {
+   "name": "御坂",
+   "url": "https://dmk.abai.ccwu.cc/api/v1/abaibai"
+  },
+  {
+   "name": "Lily",
+   "url": "https://danmu.lily.lat/lilyemby"
+  },
+  {
+   "name": "Lily",
+   "url": "https://danmu.longemby.com/lilyemby"
+  },
+  {
+   "name": "墨云阁",
+   "url": "https://danmu.wangziyang.top/020116"
+  },
+  {
+   "name": "麦当劳",
+   "url": "https://logo.saodu.work:8888"
+  },
+  {
+   "name": "麦当劳",
+   "url": "https://ybdm.saodu.wang:9999/api/v1/IN5H9udKhmMMklvDYVPs"
+  },
+  {
+   "name": "W佬",
+   "url": "https://dm.660505.xyz:8443/a123456"
+  },
+  {
+   "name": "稳健",
+   "url": "https://dandan.wenjian.de/wenjian"
+  },
+  {
+   "name": "鸢尾 Iris",
+   "url": "https://justdanmu.irisnb.com/iris-danmu"
+  },
+  {
+   "name": "夏天",
+   "url": "https://dm.wodenas.xin/xiatianemby"
+  },
+  {
+   "name": "Uncle Joel",
+   "url": "https://dmfl.us.ci"
+  },
+  {
+   "name": "小助理",
+   "url": "https://danmu.qianting168.com/456765847636987622146901"
+  },
+  {
+   "name": "睡觉",
+   "url": "https://danmu.0000996.xyz"
+  },
+  {
+   "name": "晨曦",
+   "url": "https://dm.199333.xyz/dm"
+  },
+  {
+   "name": "乔蒂深",
+   "url": "https://logvarrn.278612356.xyz/steven"
+  },
+  {
+   "name": "dx.sld.tw",
+   "url": "https://dx.sld.tw"
+  },
+  {
+   "name": "dm.626258.xyz",
+   "url": "https://dm.626258.xyz"
+  },
+  {
+   "name": "dmapi.6565n.xyz",
+   "url": "https://dmapi.6565n.xyz"
+  },
+  {
+   "name": "88920.dpdns.org",
+   "url": "https://88920.dpdns.org"
+  },
+  {
+   "name": "logvar-danmu.rinrin.top",
+   "url": "https://logvar-danmu.rinrin.top"
+  },
+  {
+   "name": "Dm.lJiaoVm.com",
+   "url": "https://Dm.lJiaoVm.com/luosen"
+  },
+  {
+   "name": "logvar-rinrin.netlify.app",
+   "url": "https://logvar-rinrin.netlify.app/r1NYa9i"
+  },
+  {
+   "name": "danmu-api-five-pink",
+   "url": "https://danmu-api-five-pink.vercel.app/999999"
+  },
+  {
+   "name": "logdanmu.kongcheng666",
+   "url": "https://logdanmu.kongcheng666.dpdns.org/a123456"
+  }
+ ],
+ "how_to_update": "python D:\\AI\\WorkBuddy\\TVBox-PC\\test_dm_final.py 重新测活"
+}
