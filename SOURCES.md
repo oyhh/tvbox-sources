@@ -86,3 +86,11 @@
 - 实测可用 19/104 条：`comic/yiciyuan-sources-19.json`
   - https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/comic/yiciyuan-sources-19.json
 - 说明：闭源应用，图源靠个人合集维护，站点改版即批量失效 → 主用 Mihon
+
+## 直播源（直连可播，2026-11-18 测活）
+
+`live/live-cn.m3u` —— 82 个频道：📺 央视 11 / 📡 卫视 17 / 🏙 地方台 54
+
+- 地址：https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/live/live-cn.m3u
+- MisaTV：设置 → 直播源 → 导入 M3U（也可以直接填这个 URL）
+- 验证：主列表 + 首个分片都返回 200/206 才算活，代理全程关闭
