@@ -57,6 +57,16 @@
             "🏙 地方台": 54
           },
           "verified": "2026-11-18 真直连测活（主列表 + 首分片）"
+        },
+        "danmaku": {
+          "file": "danmaku/endpoints.json",
+          "url": "https://cdn.jsdelivr.net/gh/oyhh/tvbox-sources@main/danmaku/endpoints.json",
+          "count": 2,
+          "protocol": "LogVar (dandanplay 兼容 XML)",
+          "endpoints": [
+            "https://logvardm.278612356.xyz/steven",
+            "https://logvar.hhht.cc.cd"
+          ]
         }
       }
     },
